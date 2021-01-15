@@ -1,7 +1,8 @@
 # quick-vpngate-client
-Quick little vpngate client since I find myself using it so much
+Quick vpngate client listing last 99 servers
 
 `python vpngate-client.py` and choose your preferred profile
-![](example.png)
+
+<a href="https://imgur.com/GesKQKh"><img src="https://i.imgur.com/GesKQKh.png" title="vpngate" alt="" /></a>
 
 No reqs, all imports are standard packages
