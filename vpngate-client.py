@@ -1,5 +1,6 @@
 """
 Oliver McLaughlin 11/18/20
+XReza 1/15/2021
 This program acts as a simple text-based client for the openvpn service.
 It only prints the top 10 results with host name, score, and ping.
 
@@ -30,8 +31,8 @@ current = reader.__next__()
 # b64 representations of openvpn profiles
 profiles = []
 
-# Loop through first 10 results
-for i in range(10):
+# Loop through first 99 results
+for i in range(99):
     
     # Print results in "[num]    name        Score       ping" fashion
     print("[" + str(i) + "]\t" +
